@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Parallax Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">Portfolio</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="stars"></div>
+        <div class="hero-content">
+            <h1 class="hero-title" data-parallax="5">Welcome to My World</h1>
+            <p class="hero-subtitle" data-parallax="3">3D Parallax Experience</p>
+            <div class="scroll-indicator" data-parallax="2">
+                <span>Scroll to Explore</span>
+                <div class="mouse">
+                    <div class="wheel"></div>
+                </div>
+            </div>
+        </div>
+        <div class="background-spheres">
+            <div class="sphere sphere-1" data-parallax="8"></div>
+            <div class="sphere sphere-2" data-parallax="6"></div>
+            <div class="sphere sphere-3" data-parallax="4"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="section-title">
+            <h2>About Me</h2>
+            <div class="title-underline"></div>
+        </div>
+        <div class="about-content">
+            <div class="about-text" data-parallax="3">
+                <p>I'm a full-stack developer passionate about creating immersive digital experiences. With expertise in modern web technologies, I craft engaging and performant applications that push the boundaries of what's possible on the web.</p>
+                <p>My journey in web development has led me to master the art of combining aesthetics with functionality, creating seamless user experiences that leave lasting impressions.</p>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-card" data-parallax="2">
+                    <h3>Frontend</h3>
+                    <ul>
+                        <li>React.js</li>
+                        <li>Vue.js</li>
+                        <li>WebGL</li>
+                        <li>Three.js</li>
+                    </ul>
+                </div>
+                <div class="skill-card" data-parallax="3">
+                    <h3>Backend</h3>
+                    <ul>
+                        <li>Node.js</li>
+                        <li>Python</li>
+                        <li>PostgreSQL</li>
+                        <li>MongoDB</li>
+                    </ul>
+                </div>
+                <div class="skill-card" data-parallax="4">
+                    <h3>Design</h3>
+                    <ul>
+                        <li>UI/UX</li>
+                        <li>3D Animation</li>
+                        <li>Motion Graphics</li>
+                        <li>Figma</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="section-title">
+            <h2>Featured Projects</h2>
+            <div class="title-underline"></div>
+        </div>
+        <div class="projects-grid">
+            <div class="project-card" data-parallax="2">
+                <div class="project-image project-image-1"></div>
+                <div class="project-info">
+                    <h3>Project One</h3>
+                    <p>An interactive 3D visualization platform for data exploration with real-time rendering capabilities.</p>
+                    <div class="project-tags">
+                        <span>Three.js</span>
+                        <span>React</span>
+                        <span>WebGL</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card" data-parallax="3">
+                <div class="project-image project-image-2"></div>
+                <div class="project-info">
+                    <h3>Project Two</h3>
+                    <p>A responsive e-commerce platform with stunning animations and seamless checkout experience.</p>
+                    <div class="project-tags">
+                        <span>Vue.js</span>
+                        <span>Node.js</span>
+                        <span>MongoDB</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card" data-parallax="4">
+                <div class="project-image project-image-3"></div>
+                <div class="project-info">
+                    <h3>Project Three</h3>
+                    <p>A social media analytics dashboard with real-time data visualization and advanced filtering.</p>
+                    <div class="project-tags">
+                        <span>React</span>
+                        <span>D3.js</span>
+                        <span>Python</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="section-title">
+            <h2>Get In Touch</h2>
+            <div class="title-underline"></div>
+        </div>
+        <div class="contact-content" data-parallax="2">
+            <p>I'm always interested in hearing about new projects and opportunities.</p>
+            <div class="contact-buttons">
+                <a href="mailto:your.email@example.com" class="btn btn-primary">Send Email</a>
+                <a href="#" class="btn btn-secondary">Connect on LinkedIn</a>
+            </div>
+            <div class="social-links">
+                <a href="#" class="social-icon">GitHub</a>
+                <a href="#" class="social-icon">Twitter</a>
+                <a href="#" class="social-icon">LinkedIn</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2026 My Portfolio. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
